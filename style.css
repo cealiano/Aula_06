@@ -1,0 +1,385 @@
+@charset 'utf-8';
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border: none;   
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62,5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(Imagens/Design\ sem\ nome.png);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 400px;
+    height: 200px;
+    background-image: url(Imagens/EDUCABH.PNG\ 2.PNG);
+    background-size: 200px 50px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 180px;
+}
+
+.cabecalho > ul > li > a{
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.cabecalho > ul > li >a:hover{
+    color: #69f667;
+}
+
+
+article{
+    
+width: 100%;
+}
+
+    #titulo{
+        float: left;
+        margin-left: 10px;
+        margin-top:10px;  
+    }
+
+
+.titulo1 {
+    letter-spacing: 2px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-left: 90px;
+}
+
+.titulo2 {
+    margin-left: 50px;
+    letter-spacing: 2px;
+    color: rgb(28, 203, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+#subtitulo{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#imagemhome > img {
+    float: right;
+    margin-right: 30px;
+    height: 500px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+
+#name{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: black;
+    border-radius: 15px;
+    height: 30px;
+}
+
+#name::placeholder{
+    text-align: center;
+}
+
+
+#email{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    float: left;
+    margin-top: 3px;
+    margin-left: 230px;
+    color: black;
+    border-radius: 15px;
+    height: 30px;
+}
+
+#email::placeholder{
+    text-align: center;
+}
+
+#enviar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#ffffff ;
+    background-color: rgb(18, 103, 32);
+    border: none;
+    float: left;
+    margin-top: 50px;
+    margin-left: 210px;
+    border-radius: 200px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+
+
+/*SOBRE NÓS*/
+
+#imagemsn1 > img {
+    float: right;
+    margin-right: 50px;
+    height: 400px;
+    width: 500px;
+    margin-top: 60px;
+}
+
+.titulo3{
+    margin-left: 80px;
+    letter-spacing: 2px;
+    color: rgb(28, 203, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.texto1{
+        margin-left: 50px;
+        margin-top: 30px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+/*FIM SOBRE NÓS*/
+
+/*COMEÇO SERVIÇOS*/
+
+
+article{
+
+}
+
+.planos{
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.planos h2{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:rgb(28, 203, 46);
+    text-transform: uppercase;
+}
+
+.itensplanos{
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.itensplanos .info{
+    background-color: #0f170f00;
+    border: none;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.itensplanos .info p{
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 150px;
+    margin-left: 8rem;
+}
+
+
+.itensplanos div{
+    background-color: #5ab15fd8;
+    border-radius: 20%;
+}
+
+.itensplanos img{
+    border-radius: 20%;
+    width: 100%;
+    height: 200%;
+}
+
+.itensplanos .info .pedir{
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #052805;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all 200ms ease-in;
+}
+
+.itensplanos .info .pedir:hover{
+    background-color: rgb(117, 241, 59);
+    color: #052805;
+}
+
+/*FIM*/
+
+.contato{
+    border: 1px solid;
+    margin-top: 600px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.infocontato{
+    margin-top: 1px;
+    height: 50px;
+    width: 40%;
+}
+
+.infocontato h2{
+    margin-top: 30px;
+    color: #052805;
+    font-family:monospace;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    margin-left: 150px;
+}
+
+.redes{
+    float: right;
+    width: 60%;
+    height: 50px;;
+}
+
+.redes > ul > li > a{
+
+    color: rgb(27, 59, 31);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+}
+
+#contato{
+    border: 1px solid;
+    margin-top:100px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+
+
+#infocontato h2{
+    margin-top: 30px;
+    color: #052805;
+    font-family:monospace;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    margin-left: 150px;
+}
+
+#redes{
+    float: right;
+    width: 60%;
+    height: 50px;;
+}
+
+#redes > ul > li > a{
+
+    color: rgb(27, 59, 31);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+
+#contato2{
+    border: 1px solid;
+    margin-top:100px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+
+
+#infocontato2 h2{
+    margin-top: 30px;
+    color: #052805;
+    font-family:monospace;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    margin-left: 150px;
+}
+
+#redes2{
+    float: right;
+    width: 60%;
+    height: 50px;;
+}
+
+#redes2 > ul > li > a{
+
+    color: rgb(27, 59, 31);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
