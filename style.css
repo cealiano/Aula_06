@@ -159,6 +159,7 @@ width: 100%;
 }
 
 .titulo3{
+    float: left;
     margin-left: 80px;
     letter-spacing: 2px;
     color: rgb(28, 203, 46);
